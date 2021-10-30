@@ -34,11 +34,19 @@
 body {
 	font: 18px Verdana;
 	color: #FFF;
-  background: #CCC;
+  background: url('img/bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 100vh;
+    background-position: center;
 }
 #picbox {
 	margin: 0px auto;
 	width: 640px;
+	position:absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 #boxcard {
 	z-index: 1;
